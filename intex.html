@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PowerFit Gym</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #111;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav {
+            background: #222;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #f7c331;
+        }
+
+        .hero {
+            background-image: url('https://images.unsplash.com/photo-1583454110550-8481f6c73f9b?auto=format&fit=crop&w=1470&q=80');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-shadow: 2px 2px 5px #000;
+        }
+
+        .hero h1 {
+            font-size: 3em;
+        }
+
+        .content {
+            padding: 40px 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .features {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .feature {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            width: 300px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .feature img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        footer {
+            background: #111;
+            color: #ccc;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>PowerFit Gym</h1>
+        <p>¡Transforma tu cuerpo y tu mente!</p>
+    </header>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#galeria">Galería</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <div class="hero" id="inicio">
+        <h1>Entrena. Enfócate. Supera.</h1>
+    </div>
+
+    <div class="content" id="servicios">
+        <h2 class="section-title">Nuestros Servicios</h2>
+        <div class="features">
+            <div class="feature">
+                <img src="https://images.unsplash.com/photo-1605296867304-46d5465a13f1?auto=format&fit=crop&w=800&q=80" alt="Entrenamiento personalizado">
+                <h3>Entrenamiento Personalizado</h3>
+                <p>Programas de ejercicios adaptados a tus objetivos con entrenadores certificados.</p>
+            </div>
+            <div class="feature">
+                <img src="https://images.unsplash.com/photo-1614692398533-f8aa67eb03dd?auto=format&fit=crop&w=800&q=80" alt="Clases grupales">
+                <h3>Clases Grupales</h3>
+                <p>Zumba, HIIT, yoga y más clases energizantes para mantenerte motivado.</p>
+            </div>
+            <div class="feature">
+                <img src="https://images.unsplash.com/photo-1554284126-aa88f22d8b74?auto=format&fit=crop&w=800&q=80" alt="Área de pesas">
+                <h3>Área de Pesas</h3>
+                <p>Equipamiento moderno para entrenamiento de fuerza, culturismo y tonificación.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="content" id="galeria">
+        <h2 class="section-title">Galería</h2>
+        <div class="features">
+            <div class="feature">
+                <img src="https://images.unsplash.com/photo-1558611848-73f7eb4001a1?auto=format&fit=crop&w=800&q=80" alt="Instalaciones modernas">
+                <h3>Instalaciones modernas</h3>
+            </div>
+            <div class="feature">
+                <img src="https://images.unsplash.com/photo-1517960413843-0aee8e2b3286?auto=format&fit=crop&w=800&q=80" alt="Ambiente motivador">
+                <h3>Ambiente motivador</h3>
+            </div>
+        </div>
+    </div>
+
+    <footer id="contacto">
+        <p>© 2025 PowerFit Gym · Todos los derechos reservados</p>
+        <p>Contacto: info@powerfitgym.com | Tel: +34 600 123 456</p>
+    </footer>
+
+</body>
+</html>
